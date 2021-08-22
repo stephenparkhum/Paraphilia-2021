@@ -9,16 +9,16 @@ ul.nav--list {
 
         a {
             text-decoration: none;
-            color: white; 
+            color: $white; 
             font-size: 20px;
             &:hover, 
             &:focus {
-                border-bottom: 2px solid $beige;
+                border-bottom: 2px solid $primary;
             }
         }
 
         a.active {
-            border-bottom: 2px solid $beige;
+            border-bottom: 2px solid $primary;
         }
 
 

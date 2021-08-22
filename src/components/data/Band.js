@@ -28,17 +28,6 @@ const maestus = {
             instagram: 'glossolaliarecords'
         },
     ],
-    albums: [
-        {
-            title: 'Scarlet Lakes', 
-            release_date: '02/15/2013',
-            type: 'EP',
-            cover_art: '',
-            spotify: 'url',
-            appleMusic: 'url',
-            bandcamp: 'url'
-        }
-    ]
 };
 
 export default maestus;

@@ -1,11 +1,11 @@
 // FONTAWESOME ICONS
-import { faBandcamp, faYoutube, faSpotify, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faList, faCompactDisc } from '@fortawesome/free-solid-svg-icons'
+import { faBandcamp, faSpotify, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faCompactDisc } from '@fortawesome/free-solid-svg-icons'
 
 const navItems = [
     {
         name: `Primordium of Sinister Butchery (USA/CAN)`,
-        link: 'https://maestus.bandcamp.com/album/daybreaks-advent',
+        link: 'https://paraphilia.bandcamp.com/',
         icon: faBandcamp,
         active: true,
         desktop: true,
@@ -14,16 +14,16 @@ const navItems = [
     },
     {
         name: `'Primordium...' (EU/RoW)`,
-        link: 'https://glossolaliarecords.bandcamp.com/album/daybreaks-advent',
+        link: 'https://brutalcaveproductions.bandcamp.com/album/primordium-of-sinister-butchery',
         icon: faBandcamp,
         active: true,
-        desktop: true,
+        desktop: false,
         mobile: true,
         key: 1
     },
     {
         name: 'Spotify',
-        link: 'https://open.spotify.com/album/3CJkPdj4uvVSqq296Ul2bD?si=WrxaqLovQMmrGhPlTH6QQg',
+        link: 'https://open.spotify.com/album/237yH9ZnTKGt4f3P1pVNP2',
         icon: faSpotify,
         active: true,
         desktop: true,
@@ -32,7 +32,7 @@ const navItems = [
     },
     {
         name: 'EPK',
-        link: 'https://www.sonicbids.com/band/maestus/',
+        link: 'https://www.sonicbids.com/band/paraphilia/',
         icon: faCompactDisc,
         active: true,
         desktop: false,
@@ -41,7 +41,7 @@ const navItems = [
     },
     {
         name: 'Instagram',
-        link: 'https://instagram.com/maestusofficial',
+        link: 'https://instagram.com/paraphilia.band',
         icon: faInstagram,
         active: true,
         desktop: true,
@@ -49,17 +49,8 @@ const navItems = [
         key: 2
     },
     {
-        name: 'YouTube',
-        link: 'https://www.youtube.com/channel/UCX73t3G2y82xKbZ2Jcmr0qg',
-        icon: faYoutube,
-        active: true,
-        desktop: true,
-        mobile: true,
-        key: 6
-    },
-    {
         name: 'Facebook',
-        link: 'https://facebook.com/maestusdoom',
+        link: 'https://facebook.com/paraphilia.band',
         icon: faFacebook,
         active: true,
         desktop: false,
@@ -67,17 +58,8 @@ const navItems = [
         key: 8
     },
     {
-        name: 'Live',
-        link: '/live',
-        icon: faList,
-        active: false,
-        desktop: true,
-        mobile: true,
-        key: 3
-    },
-    {
         name: 'Contact',
-        link: 'mailto:contact@maest.us',
+        link: 'mailto:paraphilia.pnw@gmail.com',
         icon: faEnvelope,
         active: true,
         mobile: true,

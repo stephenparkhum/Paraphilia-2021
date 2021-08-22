@@ -3,9 +3,9 @@ import React from 'react'
 const BcPlayer = () => {
     const albumData = [
         {
-          'name': 'Daybreaks Advent', 
+          'name': 'Primordium of Sinister Butchery', 
           'machine_name': 'daybreaks-advent', 
-          'id': '2278345818',
+          'id': '4220900892',
           'tracks': [
             '1236276314', 
             '616080703'
@@ -28,11 +28,11 @@ const BcPlayer = () => {
         let albumId: string = albumData.id;
         let tracks: string[] = albumData['tracks'];
         let randomInt: number = getRandomInt(tracks.length);
-        let trackSrc: string = `https://bandcamp.com/EmbeddedPlayer/album=${albumId}/size=small/bgcol=333333/linkcol=0f91ff/track=${tracks[randomInt]}/transparent=true/`
+        let trackSrc: string = `https://bandcamp.com/EmbeddedPlayer/album=${albumId}/size=small/bgcol=000000/linkcol=0f91ff/track=${tracks[randomInt]}/transparent=true/`
         return trackSrc;
     }
 
-    const albumMachineName = `https://glossolaliarecords.bandcamp.com/album/${albumData[0].machine_name}`
+    const albumMachineName = `https://paraphilia.bandcamp.com/album/${albumData[0].machine_name}`
 
     return ( 
         <div className="bc--player">

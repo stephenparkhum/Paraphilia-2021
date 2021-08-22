@@ -11,9 +11,9 @@ This site was created and generated to help promote previous releases.
 - SCSS
 - TypeScript 
 - React/JSX 
-- [Zeit](https://zeit.co)
+- [Vercel](https://vercel.co)
 
 ### Socials 
 - [Instagram](https://instagram/paraphilia.band)
-- [Facebook](https://facebook.com/paraphilia.pnw)
+- [Facebook](https://facebook.com/paraphilia.band)
 

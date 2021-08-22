@@ -1,9 +1,9 @@
 const siteData = {
     char_set: 'utf-8',
     type: 'website',
-    title: 'Maestus | Official Site',
-    name: 'Maestus - Official Site',
-    description: `Maestus - DAYBREAK'S ADVENT available now on Glossolalia Records`,
+    title: 'Paraphilia | Official Site',
+    name: 'Paraphilia - Official Site',
+    description: `Paraphilia - Primordium of Sinister Butchery available now on Brutal Cave Productions`,
     photo: '',
     link_href: 'https://maest.us',
     local: 'en_US', 
@@ -11,7 +11,7 @@ const siteData = {
     og_img_width: '',
     og_img_height: '',
     og_img_alt: 'official-maestus-site-Logo',
-    site_name: 'Maestus',
+    site_name: 'Paraphilia',
     twitter: {
         card: 'summary',
         site: '@maestusdoom'
