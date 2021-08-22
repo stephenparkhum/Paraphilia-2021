@@ -4,7 +4,7 @@ import { faEnvelope, faList, faCompactDisc } from '@fortawesome/free-solid-svg-i
 
 const navItems = [
     {
-        name: `Daybreak's Advent`,
+        name: `Primordium of Sinister Butchery (USA/CAN)`,
         link: 'https://maestus.bandcamp.com/album/daybreaks-advent',
         icon: faBandcamp,
         active: true,
@@ -13,7 +13,7 @@ const navItems = [
         key: 9
     },
     {
-        name: `Daybreak's Advent (CS)`,
+        name: `'Primordium...' (EU/RoW)`,
         link: 'https://glossolaliarecords.bandcamp.com/album/daybreaks-advent',
         icon: faBandcamp,
         active: true,
