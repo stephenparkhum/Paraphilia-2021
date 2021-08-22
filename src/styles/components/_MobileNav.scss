@@ -1,0 +1,88 @@
+.mobile--nav {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        list-style-type: none;
+        padding: 10px 0;
+
+        a {
+            text-decoration: none;
+
+            button.mobile--nav-btn {
+                background-color: $btn-grey;
+                padding: 15px;
+                font-size: 18px;
+                border: none;
+                color: $beige;
+                font-family: 'Alegreya SC', serif;
+                border-radius: 3px;
+                width: 100%;
+                margin: 0 auto;
+                text-align: center;
+                cursor: pointer;
+                -webkit-box-shadow: 4px 5px 5px 0px rgba(34, 38, 38, 0.1);
+                -moz-box-shadow: 4px 5px 5px 0px rgba(34, 38, 38, 0.1);
+                box-shadow: 4px 5px 5px 0px rgba(34, 38, 38, 0.1);
+
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                &:hover,
+                &:focus {
+                    background-color: $dark-grey;
+                }
+
+                .svg-inline--fa {
+                    padding-bottom: 0; 
+                    margin: 0;
+                    padding-right: 15px;
+                    font-size: 25px;
+                }
+
+            }
+        }
+    }
+
+
+    @media screen and (min-width: $tablet) {
+        display: none;
+    }
+
+
+}
+
+// ICON COLORING
+svg.fa-bandcamp {
+    color: $bc;
+}
+
+svg.fa-facebook {
+    color: $fb;
+}
+
+svg.fa-youtube {
+    color: $youtube;
+}
+
+svg.fa-instagram {
+    color: $ig;
+}
+
+svg.fa-spotify {
+    color: $spotify;
+}
+
+svg.fa-envelope {
+    color: $white;
+}
