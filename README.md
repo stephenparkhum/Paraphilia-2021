@@ -1,19 +1,19 @@
-# Maestus (2020)
-New website for Portland-based doom band [Maestus](https://maestus.bandcamp.com)
+# Paraphilia (2021)
+New website for Portland-based death metal band [Paraphilia](https://paraphilia.bandcamp.com)
 
-This site was created and generated to help promote previous releases, and the upcoming 11/13/2020 release of their _Daybreak's Advent_ EP. 
+This site was created and generated to help promote previous releases. 
 
 [Live Site](https://maest.us) 
 
 ## Stack
 - Adobe XD 
 - HTML 
-- SCSS 
+- SCSS
+- TypeScript 
 - React/JSX 
 - [Zeit](https://zeit.co)
 
 ### Socials 
-- [Instagram](https://instagram/maestusofficial)
-- [Twitter](https://twitter.com/maestusdoom)
-- [Facebook](https://facebook.com/maestusdoom)
+- [Instagram](https://instagram/paraphilia.band)
+- [Facebook](https://facebook.com/paraphilia.pnw)
 
