@@ -4,11 +4,12 @@ const BcPlayer = () => {
     const albumData = [
         {
           'name': 'Primordium of Sinister Butchery', 
-          'machine_name': 'daybreaks-advent', 
+          'machine_name': 'primordium-of-sinister-butchery', 
           'id': '4220900892',
           'tracks': [
-            '1236276314', 
-            '616080703'
+            '441753879', 
+            '1293739751',
+            '1086478121'
           ]
         }
     ]
