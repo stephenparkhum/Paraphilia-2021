@@ -13,7 +13,7 @@ const navItems = [
         key: 9
     },
     {
-        name: `'Primordium...' (EU/WORLD)`,
+        name: `'Primordium...' EP (EU/WORLD)`,
         link: 'https://brutalcaveproductions.bandcamp.com/album/primordium-of-sinister-butchery',
         icon: faBandcamp,
         active: true,
