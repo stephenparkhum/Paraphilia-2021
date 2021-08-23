@@ -2,19 +2,20 @@ import React from 'react';
 import navItems from '../../data/NavItems';
 
 const NavigationItems = () => {
-    const navItemGeneration = navItems.map(
-        (item) => { if(item.active === true && item.desktop === true) {
-            return (
-                <li key={item.key}>
-                    <a href={item.link} target="_blank" rel="noopener noreferrer" title={item.name}>{item.name.toUpperCase()}</a>
-                </li>
-            )
+    const navItemGenerate = (arr) => {
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] === true && arr[i].desktop === true) {
+                return (<li key={arr[i].key}>
+                    <a href={arr[i].link} target="_blank" rel="noopener noreferrer" title={arr[i].name}>{arr[i].name.toUpperCase()}</a>
+                </li>)
+            }
+
         }
-            })
+    }
 
     return (
         <ul className="nav--list">
-            {navItemGeneration}
+            {navItemGenerate(navItems)}
         </ul>
     )
 }
