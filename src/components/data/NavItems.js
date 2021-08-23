@@ -37,7 +37,7 @@ const navItems = [
         active: true,
         desktop: false,
         mobile: true,
-        key: 5
+        key: 6
     },
     {
         name: 'Instagram',
