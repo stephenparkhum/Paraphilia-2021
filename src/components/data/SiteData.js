@@ -5,16 +5,16 @@ const siteData = {
     name: 'Paraphilia - Official Site',
     description: `Paraphilia - Primordium of Sinister Butchery available now on Brutal Cave Productions`,
     photo: '',
-    link_href: 'https://maest.us',
+    link_href: 'https://paraphilia.band',
     local: 'en_US', 
     og_img: '',
     og_img_width: '',
     og_img_height: '',
-    og_img_alt: 'official-maestus-site-Logo',
+    og_img_alt: 'official-paraphilia-logo',
     site_name: 'Paraphilia',
     twitter: {
         card: 'summary',
-        site: '@maestusdoom'
+        site: '@paraphilia_band'
     }
 }
 
