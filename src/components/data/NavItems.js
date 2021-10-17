@@ -4,7 +4,7 @@ import { faEnvelope, faCompactDisc } from '@fortawesome/free-solid-svg-icons'
 
 const navItems = [
     {
-        name: `'Primordium...' EP (USA/CAN)`,
+        name: `'Primordium...' EP (🇺🇸 )`,
         link: 'https://paraphilia.bandcamp.com/',
         icon: faBandcamp,
         active: true,
@@ -13,7 +13,7 @@ const navItems = [
         key: 9
     },
     {
-        name: `'Primordium...' EP (EU/WORLD)`,
+        name: `'Primordium...' EP (🇪🇺 )`,
         link: 'https://brutalcaveproductions.bandcamp.com/album/primordium-of-sinister-butchery',
         icon: faBandcamp,
         active: true,
