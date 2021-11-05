@@ -1,4 +1,4 @@
-const maestus = {
+const paraphilia = {
     name: 'Paraphilia',
     social_links: [
         {
