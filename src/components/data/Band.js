@@ -1,4 +1,4 @@
-const maestus = {
+const paraphilia = {
     name: 'Paraphilia',
     social_links: [
         {
@@ -14,7 +14,7 @@ const maestus = {
             url: ''
         }, 
         
-    ], 
+    ], // this is just a random VS Code dev site test
     photos: '',
     members: [
         {
